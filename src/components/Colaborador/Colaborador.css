@@ -1,0 +1,69 @@
+.colaborador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 262px;
+    height: 272px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+    gap: 24px;
+    position: relative;
+    padding-bottom: 27px;
+}
+
+.colaborador .encabezado {
+    width: 100%;
+    height: 91px;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+}
+
+.colaborador img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+
+.colaborador .info {
+    height: calc(100% - 91px);
+    width: 100%;
+    padding: 0 30px;
+    position: absolute;
+    top: 91px;
+}
+
+.colaborador .info h4 {
+    color: #6278F7;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 115px;
+    margin-bottom: 0;
+}
+
+.colaborador .info h5 {
+    color: #212121;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.eliminar {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    z-index: 1;
+}
+
+.heart {
+    margin-bottom: 20px;
+}
